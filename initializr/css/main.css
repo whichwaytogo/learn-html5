@@ -111,7 +111,7 @@ main{
 }
 
 section#main{
-	position:relative
+	position:relative;
 	width:70%;
 	float:left;
 }	
