@@ -15,7 +15,7 @@
     <body>
 		<div id="container">
 			<header id="main">
-				<h1>My HTML5 website</h1>
+				<h1>Mood Teller</h1>
 			</header>
 			<nav>
 				<u1>
@@ -27,11 +27,21 @@
 			</nav>
 			<main>
 				<section id="main">
-						<article>
-							<h2>My Headline 2</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum tempor dolor at viverra. Integer nec urna sollicitudin lectus blandit accumsan. Nam scelerisque consequat urna, ut ornare mauris placerat vel. Phasellus nec ex tincidunt, cursus eros sed, porta orci. Proin vel est vitae nunc egestas rutrum. Vestibulum aliquam, felis ac molestie fermentum, nulla tortor gravida arcu, id tincidunt mi odio eu purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam luctus ultricies libero, vel feugiat risus pretium ut. Nunc ex massa, sollicitudin vel aliquet vitae, auctor sed justo. Nam euismod erat eu mi feugiat vestibulum.</p>
-							<p>In dapibus non neque eu feugiat. Ut tempor varius consectetur. Sed rhoncus lacus a porttitor laoreet. Integer id aliquam est, eu rutrum nulla. Phasellus bibendum nec mi eget aliquam. Vivamus vel ex finibus, faucibus libero ut, laoreet mauris. Integer lacinia odio non risus laoreet malesuada. Integer id ornare est. Vivamus ornare tortor non elit fermentum maximus.</p>
-						</article>
+					<article>
+						<h2>Mood Teller</h2>
+						<p>Please type in your name and your current mood</p>
+						<form id="moodForm" action='#'>
+							<label>Name:</label>
+							<input type="text" id="name" placeholder="Enter Your Name...">
+							<br><br>
+							<label>Mood:</label>
+							<input type="text" id="mood" placeholder="Enter Your Mood...">
+							<br><br>
+							<button onclick="showMood()">Tell Me</button>
+							<button onclick="clearMood()">Clear Mood</button>
+						</form>
+						<div id='holder'></div>
+					</article>
 				</section>				
 				
 				<aside>

@@ -111,12 +111,21 @@ main{
 }
 
 section#main{
+	position:relative
 	width:70%;
 	float:left;
 }	
 aside{
 	width:20%;
 	float:right;
+}
+
+#holder{
+	position:absolute;
+	top:10px;
+	left:320px;
+	font-size:35px;
+	width:250px;
 }
 	
 footer{
